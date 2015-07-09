@@ -2413,7 +2413,7 @@ a.button.button-transparent
 {
     display: inline-block;
 
-    margin-right: 23px;
+    margin-right: 15px;
 
     list-style: none;
 }
@@ -5810,9 +5810,7 @@ html.wp-admin-bar.mm-opened
     .stock-ticker
     {
         display: inline-block;
-
-        margin: 12px 20px 0 0;
-
+        margin: 12px 0 0 0;
         text-align: right;
     }
 
@@ -6535,7 +6533,7 @@ html.wp-admin-bar.mm-opened
     {
         display: block;
         float: left;
-
+        text-align: right;
         width: 51.38012%;
         margin-top: 51px;
         margin-right: 2.35765%;
@@ -6617,9 +6615,8 @@ html.wp-admin-bar.mm-opened
     .stock-ticker
     {
         font-size: 1rem;
-
-        display: block;
-        float: left;
+        display: inline-block;
+        /*float: left;*/
         clear: none;
 
         margin: 7px 0 0 25px;
@@ -6631,8 +6628,7 @@ html.wp-admin-bar.mm-opened
     {
         float: right;
         clear: none;
-
-        margin: 0;
+        margin: 0 0 0 40px;
     }
 
     /* line 5, sass/modules/_main-navigation.scss */
@@ -6832,3 +6828,102 @@ html.wp-admin-bar.mm-opened
     }
 }
 
+.social-navigation .menu a {
+color: #fff;
+}
+
+.mm-menu {
+background-color: #222;
+}
+
+.widget.wds-corporate-newsroom-widget .widget-title {
+font-size: 2.25rem;
+margin-bottom: 0;
+}
+
+.four-column-grid .entry-title {
+margin-top: 0;
+}
+
+.four-column-grid .list {
+border-top: 0;
+}
+
+.four-column-grid .posted-on {
+font-size: .8em !important;
+margin-bottom: 12px !important;
+letter-spacing: 1px;
+}
+
+.four-column-grid .item.news {
+padding-top: 20px !important;
+border-top: 1px solid #3B99FC !important;
+}
+
+.type-discovery-newsroom {
+ border-top: 1px solid #F5A723
+}
+
+.category-corporate-news {
+border-top: 1px solid #3B99FC;
+}
+
+.stock-ticker {
+color: #fff;
+}
+
+.homepage-widget-area-3 .widget_simpleimage .simple-image-content-container .simple-image-content .widget-title, 
+.careers-widget-area-2 .widget_simpleimage .simple-image-content-container .simple-image-content .widget-title {
+font-size: 2.5rem !important;
+}
+
+.homepage-widget-area-3 .widget_simpleimage .simple-image-content-container .simple-image-content .more::after, 
+.careers-widget-area-2 .widget_simpleimage .simple-image-content-container .simple-image-content .more::after {
+top: 80px;
+}
+
+.homepage-widget-area-3 .widget_simpleimage .simple-image-content-container a:hover .more:after,
+.careers-widget-area-2 .widget_simpleimage .simple-image-content-container a:hover .more:after
+{
+    top: 85px;
+}
+
+.wds-accordion h3 {
+ background-color: #3B99FC;
+color: #fff;
+}
+
+.page-template-template-leadership #TB_window .executive-content h4.company, .page-template-template-leadership #TB_window .executive-content h4.title {
+    font-size: 1rem;
+letter-spacing: 1px;
+text-transform: uppercase;
+    color: #272525;
+}
+
+.company {
+line-height: 1.3rem;
+}
+
+h1.entry-title.page-title {
+font-size: 4.5rem;
+padding: 50px 0;
+}
+
+.site-description {
+  font-family: 'Proxima N W01 Bold','Open Sans','Helvetica Neue',Arial,sans-serif;
+  color: #c7c7c7;
+}
+
+@media and (min-width: 64em) {
+     .site-header .right-header-container .stock-ticker-container {
+        display: inline-block;
+        height: 40px;
+     }
+}
+
+@media (min-width: 48em) {
+    .footer-branding .footer-extras {
+      float: right;
+      margin: 12px 0 25px;
+    }
+}

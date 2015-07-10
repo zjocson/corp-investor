@@ -23,6 +23,7 @@ light blue: #3b99fc;
 
 .page-template-investor h2:first-of-type {
   font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
 .page-template-investor .wds-accordion .wds-accordion-section {
@@ -257,7 +258,6 @@ light blue: #3b99fc;
   margin: 0;
   padding: 20px 0 0 0;
   list-style: none;
-  border-top: 1px solid #ccd3d9;
 }
 
 .page-template-investor .main-section .entry-title {
@@ -547,7 +547,7 @@ table select {
     margin-top: 100px;
   }
   .page-template-investor .main-section .list {
-    padding-top: 40px;
+    padding-top: 20px;
   }
 }
 
